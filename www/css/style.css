@@ -1,0 +1,43 @@
+/* Empty. Add your own CSS if you like */
+
+/* universal */
+
+body {
+	font-family: 'Amatic SC', cursive;
+}
+
+h1, h3, h5 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400;
+	color: white;
+}
+
+.black {
+	background-image: url('../img/background.jpg');
+}
+
+.black-font {
+	color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+/* buttons */
+.circle {
+	margin: 0 auto;
+	width: 155px;
+	height: 155px;
+	padding: 40px;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 70px;
+}
+
+/* statistics view */
+
+.stats {
+	padding-top: 30px;
+}
+

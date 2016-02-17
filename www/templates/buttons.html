@@ -1,0 +1,24 @@
+<ion-view view-title="Dont Push That Button">
+  <ion-pane>
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Dont Push That Button</h1>
+    </ion-header-bar>
+    <ion-content class="black">
+      <br>
+      <div on-long-press="clearTime(0)" ng-click="openModal(0)" class="button button-block button-assertive circle">
+        {{times[0].since | duration: 'hh:mm'}}
+      </div>
+      <br>
+      <div on-long-press="clearTime(1)" ng-click="openModal(1)" class="button button-block button-energized circle">
+        {{times[1].since | duration: 'hh:mm'}}
+      </div>
+      <br>
+      <div on-long-press="clearTime(2)" ng-click="openModal(2)" class="button button-block button-balanced circle">
+        {{times[2].since | duration: 'hh:mm'}}
+      </div>
+    </ion-content>
+  </ion-pane>
+  <script type="text/javascript">
+    console.log('hello');
+  </script>
+</ion-view>

@@ -1,0 +1,10 @@
+<br>
+<ion-content class="center stats black">
+  <div ng-repeat="time in times">
+    <h1>{{$index + 1}}</h1>
+    <h1 on-long-press="clearTime($index)"><strong>{{time.since | duration: 'hh:mm:ss'}}</strong></h1>
+    <h5>best time: <strong>{{time.best | duration: 'hh:mm:ss'}}</strong></h3>
+    <br>
+    <br>
+  </div>
+</ion-content>
